@@ -18,13 +18,13 @@ export default function About() {
         <div>
           <h2 className="text-4xl font-extrabold mb-6 font-poppins text-gradient">About Me</h2>
           <p className="text-gray-300 text-lg leading-relaxed mb-6 font-inter">
-            I’m <span className="text-white font-semibold">Arvil</span>, a Fullstack Developer with a background in enterprise engineering and a passion for building AI-integrated apps. I specialize in backend APIs with Java (Spring Boot) and frontend interfaces using React, Tailwind, and modern frameworks.
+            I&apos;m <span className="text-white font-semibold">Arvil</span>, a Fullstack Developer with a background in enterprise engineering and a passion for building AI-integrated apps. I specialize in backend APIs with Java (Spring Boot) and frontend interfaces using React, Tailwind, and modern frameworks.
           </p>
           <p className="text-gray-300 text-lg leading-relaxed mb-6 font-inter">
-            I'm currently targeting Fullstack roles while preparing for a transition into a Sales Engineer role — combining deep technical insight with storytelling and user focus.
+            I&apos;m currently targeting Fullstack roles while preparing for a transition into a Sales Engineer role — combining deep technical insight with storytelling and user focus.
           </p>
           <p className="text-gray-400 text-lg leading-relaxed font-inter">
-            Beyond code, I’m working on a women’s health startup powered by AI. My mission is to make technology feel more human, inclusive, and impactful.
+            Beyond code, I&apos;m working on a women&apos;s health startup powered by AI. My mission is to make technology feel more human, inclusive, and impactful.
           </p>
         </div>
 

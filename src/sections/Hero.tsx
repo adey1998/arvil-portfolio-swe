@@ -16,7 +16,7 @@ export default function Hero() {
         transition={{ duration: 1.2 }}
       >
         <h1 className="text-6xl md:text-7xl font-poppins font-extrabold mb-4 leading-tight tracking-tight drop-shadow-xl">
-          Hi, I'm{" "}
+          Hi, I&apos;m{" "}
           <span className="bg-gradient-to-r from-blue-400 to-indigo-500 bg-clip-text text-transparent">
             Arvil
           </span>
