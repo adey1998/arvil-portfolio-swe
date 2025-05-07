@@ -16,23 +16,28 @@ export default function About() {
       >
         {/* Left Column - Text */}
         <div>
-          <h2 className="text-4xl font-extrabold mb-6 font-poppins text-gradient">About Me</h2>
+          <h2 className="text-4xl font-extrabold mb-6 font-poppins text-blue-400">
+            About Me
+          </h2>
           <p className="text-gray-300 text-lg leading-relaxed mb-6 font-inter">
-            I&apos;m <span className="text-white font-semibold">Arvil</span>, a Fullstack Developer with a background in enterprise engineering and a passion for building AI-integrated apps. I specialize in backend APIs with Java (Spring Boot) and frontend interfaces using React, Tailwind, and modern frameworks.
+            I&apos;m <span className="text-white font-semibold">Arvil</span>, a Fullstack Developer with a blend of technical expertise and a passion for impactful sales engineering. Specializing in backend APIs (Spring Boot) and frontend development (React, Tailwind), I bridge the gap between development and client-focused solutions.
           </p>
           <p className="text-gray-300 text-lg leading-relaxed mb-6 font-inter">
-            I&apos;m currently targeting Fullstack roles while preparing for a transition into a Sales Engineer role — combining deep technical insight with storytelling and user focus.
+            Currently, I&apos;m pursuing Fullstack roles while preparing for a Sales Engineer position — using my technical knowledge to deliver results through client-facing demos, storytelling, and tailored technical solutions.
           </p>
           <p className="text-gray-400 text-lg leading-relaxed font-inter">
-            Beyond code, I&apos;m working on a women&apos;s health startup powered by AI. My mission is to make technology feel more human, inclusive, and impactful.
+            Outside of work, I&apos;m building a women&apos;s health startup, blending AI with compassionate care to create innovative health solutions. My goal is to make technology more inclusive, accessible, and impactful.
+          </p>
+          <p className="text-gray-400 text-lg leading-relaxed font-inter mt-6">
+            Feel free to explore my <a href="#projects" className="text-blue-500 hover:underline">projects</a> or reach out if you&apos;d like to discuss how I can contribute to your team&apos;s growth!
           </p>
         </div>
 
         {/* Right Column - Placeholder for Image / Illustration / Icon */}
         <div className="flex justify-center md:justify-end">
-          <div className="w-64 h-64 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-2xl shadow-lg border border-gray-700 flex items-center justify-center text-gray-500 font-inter transition-transform duration-300 transform hover:scale-105">
+          <div className="w-64 h-64 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-2xl shadow-lg border border-gray-700 flex items-center justify-center text-gray-500 font-inter transition-transform duration-300 transform hover:scale-105 hover:shadow-2xl">
             {/* Replace with image if available */}
-            <div className="text-2xl text-white">Your Photo or Logo</div>
+            <div className="text-2xl text-white">Your Photo</div>
           </div>
         </div>
       </motion.div>

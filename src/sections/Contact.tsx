@@ -14,17 +14,22 @@ export default function Contact() {
         transition={{ duration: 1, ease: "easeOut" }}
         viewport={{ once: true }}
       >
-        <h2 className="text-4xl font-extrabold font-poppins mb-6 tracking-tight">
+        <h2 className="text-4xl font-extrabold font-poppins mb-6 tracking-tight text-blue-400">
           Contact Me
         </h2>
         <p className="text-lg text-gray-300 mb-12 font-inter">
           Interested in collaborating or discussing opportunities? Let’s get in touch — I’d love to hear from you.
         </p>
+      </motion.div>
 
-        <form
+      <div className="max-w-7xl mx-auto px-6">
+        <motion.form
           action="https://formsubmit.co/your-email"
           method="POST"
           className="w-full max-w-lg mx-auto space-y-6"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 1, ease: "easeInOut" }}
         >
           <div className="flex flex-col gap-5">
             <input
@@ -32,21 +37,21 @@ export default function Contact() {
               name="name"
               placeholder="Your Name"
               required
-              className="w-full px-5 py-4 bg-[#1f2937] text-white rounded-xl border border-gray-700 placeholder-gray-400 focus:outline-none focus:border-blue-500 focus:scale-[1.01] transition-all duration-300 font-inter shadow-sm focus:ring-0"
+              className="w-full px-5 py-4 bg-[#1f2937] text-white rounded-xl border border-gray-700 placeholder-gray-400 focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-300 focus:scale-[1.01] transition-all duration-300 font-inter shadow-sm"
             />
             <input
               type="email"
               name="email"
               placeholder="Your Email"
               required
-              className="w-full px-5 py-4 bg-[#1f2937] text-white rounded-xl border border-gray-700 placeholder-gray-400 focus:outline-none focus:border-blue-500 focus:scale-[1.01] transition-all duration-300 font-inter shadow-sm focus:ring-0"
+              className="w-full px-5 py-4 bg-[#1f2937] text-white rounded-xl border border-gray-700 placeholder-gray-400 focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-300 focus:scale-[1.01] transition-all duration-300 font-inter shadow-sm"
             />
             <textarea
               name="message"
               placeholder="Your Message"
               required
               rows={4}
-              className="w-full px-5 py-4 bg-[#1f2937] text-white rounded-xl border border-gray-700 placeholder-gray-400 focus:outline-none focus:border-blue-500 focus:scale-[1.01] transition-all duration-300 font-inter shadow-sm focus:ring-0"
+              className="w-full px-5 py-4 bg-[#1f2937] text-white rounded-xl border border-gray-700 placeholder-gray-400 focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-300 focus:scale-[1.01] transition-all duration-300 font-inter shadow-sm"
             ></textarea>
           </div>
 
@@ -56,8 +61,8 @@ export default function Contact() {
           >
             Send Message
           </button>
-        </form>
-      </motion.div>
+        </motion.form>
+      </div>
     </section>
   );
 }

@@ -23,7 +23,7 @@ export default function Hero() {
         </h1>
 
         <p className="text-lg md:text-2xl font-inter text-gray-400 mb-10 max-w-2xl mx-auto">
-          Fullstack Developer crafting AI-powered web apps with performance and elegance.
+          Fullstack engineer and aspiring sales engineer, building tech that drives results.
         </p>
 
         {/* Buttons */}
